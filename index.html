@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Online Crime</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function submitForm() {
+            // Redirect to the success page after form submission
+            window.location.href = "success.html";
+            return false; // Prevent the form from actually submitting
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Report Online Crime</h2>
+        <form onsubmit="return submitForm()"  action="https://formspree.io/f/mqkrwnep" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="crime_type">Type of Crime:</label>
+            <input type="text" id="crime_type" name="crime_type" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="image">Upload Image (optional):</label>
+            <input type="file" id="image" name="image">
+
+            <input type="submit" value="Submit Report">
+        </form>
+    </div>
+</body>
+</html>
