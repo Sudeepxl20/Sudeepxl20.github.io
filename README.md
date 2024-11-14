@@ -1,3 +1,1 @@
-Creating awareness about cyber security among the villagers
-
-cyber crime reporting tool
+Cyber Crime Awareness and Reporting System: Empowering Users to Combat Digital Threats
