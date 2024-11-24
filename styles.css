@@ -1,9 +1,12 @@
+
+/* Enhanced styles.css */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    background-image: url('Designer\ \(3\).png');
+    background-image: linear-gradient(to right, #ffecd2, #fcb69f);
 }
 
 .container {
@@ -11,48 +14,41 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333333;
-}
-
-label {
-    font-weight: bold;
+    color: #2c3e50;
 }
 
 input[type="text"], textarea, input[type="file"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #3498db;
     border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background: linear-gradient(to right, #ff6f61, #ff9966);
     color: white;
-    padding: 10px 20px;
+    font-weight: bold;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
-    width: 100%;
+    transition: all 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-input[type="file"] {
-    cursor: pointer;
+    background: linear-gradient(to right, #ff9966, #ff6f61);
+    box-shadow: 0 4px 15px rgba(255, 105, 135, 0.3);
 }
 
 textarea {
-    resize: vertical; /* Allow vertical resizing */
+    resize: vertical;
 }
-

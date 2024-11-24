@@ -1,78 +1,69 @@
+
+/* Enhanced main.css */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #ffefd5;
+    background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px; /* Add padding to create space between content and container edges */
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.text-frame {
-    border: 2px solid #ccc;
     padding: 20px;
-    border-radius: 5px;
+    background-color: #ffe4e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2, h3 {
-    color: #333333;
+    color: #2c3e50;
 }
 
 p, ul, li {
-    color: #666666;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
+    color: #34495e;
 }
 
 input[type="text"],
-input[type="password"],
-input[type="submit"] {
+input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #3498db;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
 input[type="text"]:focus,
 input[type="password"]:focus {
-    border-color: #4CAF50;
-    outline: none;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    border-color: #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background: linear-gradient(to right, #ff6f61, #ff9966);
     color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background: linear-gradient(to right, #ff9966, #ff6f61);
+    box-shadow: 0 4px 15px rgba(255, 105, 135, 0.3);
 }
 
-/* Hover effect for links */
 a {
-    color: #337ab7;
+    color: #e67e22;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #23527c;
+    color: #d35400;
 }
