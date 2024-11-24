@@ -68,7 +68,7 @@ input[type="submit"]:hover {
 
 /* Hover effect for links */
 a {
-    color: #337ab7;
+    color: #FF69B4;
     text-decoration: none;
     transition: color 0.3s ease;
 }
