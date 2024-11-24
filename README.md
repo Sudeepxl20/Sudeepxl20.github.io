@@ -1,6 +1,6 @@
 # Cyber Crime Awareness and Reporting System: Empowering Users to Combat Digital Threats
 
-## BY STUDENTS
+## BY
  # 22A21A0589
 > GOLAKOTI S N DURGA VENKATA PAVAN KUMAR
 > 
